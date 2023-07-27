@@ -30,8 +30,10 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "App\\": "app/",
+            "Modules\\": "Modules/"
         }
+        
     },
     "scripts": {
         "post-autoload-dump": [
